@@ -14,19 +14,34 @@ section {
     display: flex;
 }
 
+.top-banner {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
 .half-width {
-    50%;
+    width: 50%;
     padding: 5%;
 }
 
 .half-width img {
-    80%;
+    width: 80%;
 }
 
 .para1 {
     text-align: justify;
 }
 
-h3 {
-    text-align: underline;
+.link-button {
+    font-weight: bold;
+    text-decoration: none;
+    background-image: linear-gradient(to right, red, green, blue);
+    padding: 10px 40px;
+    border-radius: 5%;
+    color: white;
+}
+
+.link-button:hover {
+    color: red;
+    background-color: green;
 }
