@@ -12,6 +12,7 @@ h1 {
 
 section {
     display: flex;
+    margin-bottom: 150px;
 }
 
 .top-banner {
@@ -37,11 +38,22 @@ section {
     text-decoration: none;
     background-image: linear-gradient(to right, red, green, blue);
     padding: 10px 40px;
-    border-radius: 5%;
+    border-radius: 10PX;
     color: white;
 }
 
 .link-button:hover {
     color: red;
     background-color: green;
+}
+
+.para2 {
+    text-align: justify;
+    padding-right: 10px;
+}
+
+.side-banner {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right 0;
 }
